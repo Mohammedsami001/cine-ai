@@ -95,5 +95,7 @@ See `/assets/gcp_proof/` for screenshots of live Vertex AI API calls.
 
 ## 👥 Team
 
-- [Your Name] — [Your Role]
-- [Teammate Name] — [Their Role]
+- [Saish Kharat] 
+- [Mohammedsami Sanadi]
+- [Sankalp Mhatre]
+- [Arjun Thakur]
