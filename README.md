@@ -93,6 +93,29 @@ streamlit run app.py
 
 See `/assets/gcp_proof/` for screenshots of live Vertex AI API calls.
 
+---
+
+## 🧪 Reproducible Testing for Judges
+
+To verify the autonomous routing and multimodal capabilities of CINE AI, please follow this exact sequence of prompts in the chat interface. Do not click any toggles; the Agent will route these automatically.
+
+**Test Case 1: The Screenplay (Triggers WRITE Mode)**
+
+1. Type: `Write an intense opening scene for a sci-fi thriller set in a neon-lit cyberpunk diner. Include director's notes.`
+2. **Expected Result:** The Agent will output `AGENT DECISION: WRITE DEPT` and generate a properly formatted screenplay with bolded `[DIRECTOR'S NOTE]` tags.
+
+**Test Case 2: The Concept Art (Triggers IMAGE Mode with Context Memory)**
+
+1. Type: `Generate concept art for the opening wide shot of that diner scene.`
+2. **Expected Result:** The Agent will recognize the intent, output `AGENT DECISION: IMAGE DEPT`, extract the visual details from the previous chat history, display the visual brief, and render the concept art image.
+
+**Test Case 3: The Animation (Triggers VIDEO Mode with Context Memory)**
+
+1. Type: `Animate the scene with a slow pan across the diner counter.`
+2. **Expected Result:** The Agent will output `AGENT DECISION: VIDEO DEPT`, structure a strict Veo prompt using the visual context of the diner, submit the job to the Render Farm, and display the final `.mp4` cinematic sequence.
+
+---
+
 ## 👥 Team
 
 - [Saish Kharat] 
