@@ -62,7 +62,7 @@ concept art, or produce a cinematic video — all from one natural language prom
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/auteur-studio.git
+git clone https://github.com/Mohammedsami001/gemini-live-agent-challenge.git
 cd cine-ai
 
 # 2. Install dependencies
