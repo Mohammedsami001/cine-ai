@@ -1,0 +1,45 @@
+# LangChain Core
+langchain
+langchain-core
+
+# OpenAI Integration
+langchain-openai
+openai
+
+# Anthropic Integration
+langchain-anthropic
+
+# Google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+
+# Environment Variable Management
+python-dotenv
+
+# Machine Learning Utilities
+numpy
+scikit-learn
+
+# Streamlit
+streamlit
+
+# ============= Core Google GenAI (Primary SDK) =============
+google-genai>=1.0.0
+google-auth>=2.29.0
+
+# ============= LangChain (Secondary - kept for compatibility) =============
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-google-genai>=2.0.0
+google-generativeai>=0.8.0
+
+# ============= Streamlit UI =============
+streamlit>=1.32.0
+
+# ============= Environment Management =============
+python-dotenv>=1.0.0
